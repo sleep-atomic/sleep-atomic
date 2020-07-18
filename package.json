@@ -1,16 +1,16 @@
 {
   "name": "sleep-atomic",
   "type": "module",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "description": "Sleep w/Atomics.wait (ES Module)",
   "module": "lib/index.js",
   "bin": {
-    "sleep": "./bin/server.js"
+    "sleep": "./bin/server.js",
+    "sleep-atomic": "./bin/server.js"
   },
   "scripts": {
-    "sleep": "npm start",
+    "sleep": "sleep",
     "start": "node --unhandled-rejections=strict --trace-warnings ./bin/server.js",
-    "sleep-atomic": "npm start",
     "test": "node --unhandled-rejections=strict --trace-warnings ./test/test.js",
     "version": "echo \"$npm_package_version\""
   },
