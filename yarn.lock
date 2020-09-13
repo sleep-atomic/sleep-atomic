@@ -9,5 +9,6 @@ __metadata:
   resolution: "sleep-atomic@workspace:."
   bin:
     sleep: ./bin/server.js
+    sleep-atomic: ./bin/server.js
   languageName: unknown
   linkType: soft
